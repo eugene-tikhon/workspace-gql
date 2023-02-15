@@ -1,0 +1,22 @@
+{
+  "name": "workspace-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "node server.js",
+    "dev2": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.7.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
